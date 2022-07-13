@@ -1,0 +1,31 @@
+/* Importing fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Open+Sans:wght@800&display=swap");
+
+body {
+  background: linear-gradient(90deg, #1c8d73 20%, #207398, #50dbb4);
+  font-family: "Montserrat", "Open Sans", "verdana";
+  color: #242b2e;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 4% 4%; /* margins will be for top and bottom */
+  font-family: "Open Sans", "Verdana";
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+span {
+  font-size: 130%;
+}
+
+.iNeuron {
+  text-decoration: underline;
+}
