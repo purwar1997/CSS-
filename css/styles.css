@@ -1,6 +1,6 @@
 /* Importing fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Open+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@800&display=swap");
 
 body {
   background: linear-gradient(90deg, #1c8d73 20%, #207398, #50dbb4);
@@ -11,8 +11,10 @@ body {
 h1 {
   font-size: 40px;
   text-align: center;
-  margin: 4% 4%; /* margins will be for top and bottom */
+  /* all the four margins */
+  margin: 4%;
   font-family: "Open Sans", "Verdana";
+  font-weight: 800;
 }
 
 p {
@@ -28,4 +30,43 @@ span {
 
 .iNeuron {
   text-decoration: underline;
+}
+
+button {
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  /* 5px -> top and bottom // 10px -> left and right */
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #1f1f1f;
+  border: 2.5 px solid #1f1f1f;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #e2caca;
+  font-size: 24px;
+  box-shadow: 0 0 30px 25px #1f1f1f inset;
+}
+
+.lco {
+  /* transition: transition-property, transition-duration, transition-timing-function, transition-delay */
+  transition: color 400ms ease-in-out, font-size 400ms ease-in-out, box-shadow 400ms ease-in-out;
+}
+
+div {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1f1f1f;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow</title>
+    <style>
+      body {
+        font-family: "Verdana";
+      }
+
+      p,
+      input,
+      button,
+      div {
+        padding: 10px;
+        display: block;
+        /* auto will horizontally center the elements */
+        margin: auto;
+      }
+
+      p {
+        border: 2px solid;
+        width: 200px;
+        box-shadow: -10px 10px 4px #6f9eca;
+      }
+
+      input {
+        box-shadow: 0 5px 3px #02b290;
+      }
+
+      button {
+        font-size: 20px;
+        box-shadow: 0 0 6px 6px #b9345a;
+      }
+
+      div {
+        height: 10vh;
+        width: 20%;
+        background-color: #5a5c83;
+        box-shadow: 20px 20px 5px -3px #242b2e;
+      }
+    </style>
+  </head>
+  <body>
+    <br /><br />
+    <p>Lorem ipsum dolor sit.</p>
+    <br /><br />
+    <input type="text" /><br /><br />
+    <button>Click Me</button><br /><br />
+    <div></div>
+  </body>
+</html>
