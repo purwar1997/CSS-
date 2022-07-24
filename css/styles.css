@@ -33,6 +33,7 @@ span {
 }
 
 button {
+  /* auto value will center align the button */
   margin: auto;
   display: block;
 }
@@ -41,11 +42,11 @@ button {
   font-size: 22px;
   font-weight: 700;
   text-transform: capitalize;
-  /* 5px -> top and bottom // 10px -> left and right */
+  /* 10px -> top and bottom // 20px -> left and right */
   padding: 10px 20px;
   background-color: transparent;
   color: #1f1f1f;
-  border: 2.5 px solid #1f1f1f;
+  border: 2.5px solid #1f1f1f;
   border-radius: 8px;
   cursor: pointer;
 }
